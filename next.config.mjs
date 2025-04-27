@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/Akhil-Shibu',
+  // Remove basePath as you're now using a subdomain instead of a subfolder
+  // basePath: '/Akhil-Shibu', 
   trailingSlash: true,
   eslint: {
     ignoreDuringBuilds: true,
