@@ -6,7 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "predeploy": "npm run build",
+
+    "deploy": "gh-pages -d out",
+    "postbuild": "next-sitemap"
+
   },
   "dependencies": {
     "@emotion/is-prop-valid": "latest",
