@@ -35,7 +35,7 @@ export default function Footer() {
             </div>
 
             <p className="text-slate-400 text-sm flex items-center">
-              Made with <Heart className="h-4 w-4 text-red-500 mx-1" /> © {currentYear} Akhil Shibu
+              Digital Product Solutions <Heart className="h-4 w-4 text-orange-500 mx-1" /> © {currentYear} Akhil Shibu
             </p>
           </div>
         </div>
